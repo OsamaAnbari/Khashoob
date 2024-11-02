@@ -1,7 +1,7 @@
 /* src/app/product-gallery/product-gallery.component.scss */
 .hero-header {
   height: 80vh; /* Full screen height */
-  background-image: url('../../../public/Images/HeroHeader.png'); /* Replace with your hero image */
+  background-image: url('https://i.ibb.co/zbKRqjj/Hero-Header.png" alt="Hero-Header'); /* Replace with your hero image */
   background-size: cover;
   background-position: center;
   position: relative;
