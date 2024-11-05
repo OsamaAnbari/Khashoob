@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #00796b;
+    background-color: #493628;
     color: white;
   
     .navbar-logo {
@@ -30,5 +30,9 @@
         }
       }
     }
+  }
+
+  .nav-link{
+    color: white;
   }
   

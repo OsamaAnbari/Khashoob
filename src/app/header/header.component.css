@@ -1,35 +1,23 @@
-/* src/app/product-gallery/product-gallery.component.scss */
-.hero-header {
-  height: 80vh; /* Full screen height */
-  background-image: url('https://i.ibb.co/zbKRqjj/Hero-Header.png" alt="Hero-Header'); /* Replace with your hero image */
+.hero-container {
+  position: relative;
+  height: 80vh;
+  background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png');
   background-size: cover;
   background-position: center;
-  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #493628;
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.prod-btn{
+  background-color: #493628;
   color: white;
-
-  .container {
-    padding: 30px;
-    max-width: 50%; /* Keeps the text area manageable */
-    margin-left: auto; /* Aligns container to the right */
-  }
-
-  h1 {
-    font-size: 3rem; /* Adjust size as needed */
-    margin: 0; /* Remove default margin */
-  }
-
-  p {
-    font-size: 1.25rem; /* Larger paragraph text */
-    margin: 0; /* Remove default margin */
-  }
-
-  .btn {
-    background-color: #00796b; /* Button color */
-    border: none;
-    transition: background-color 0.3s;
-
-    &:hover {
-      background-color: #004d40; /* Darker shade on hover */
-    }
-  }
+  font-size: 0.9em;
 }
