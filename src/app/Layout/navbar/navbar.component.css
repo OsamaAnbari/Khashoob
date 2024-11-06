@@ -6,6 +6,9 @@
     padding: 10px 20px;
     background-color: #822E2E;
     color: white;
+
+    padding-left: 10px; @media (min-width: 768px) { padding-left: 160px; }
+    padding-right: 10px; @media (min-width: 768px) { padding-right: 160px; }
   }
 
   .nav-link{

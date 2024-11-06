@@ -1,0 +1,10 @@
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: right; /* Ensure text alignment is right for RTL */
+}
+
+.container {
+  direction: rtl; /* Set the container direction to RTL */
+}

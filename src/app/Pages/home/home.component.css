@@ -1,3 +1,32 @@
+.hero-container {
+  position: relative;
+  background-image: url('https://i.ibb.co/zGzN6yM/Hero-Header-Small.png'); @media (min-width: 768px) { background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png'); }
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #822E2E;
+  text-align: right;
+  font-size: 1.5em;
+  padding-left: 30px; @media (min-width: 768px) { padding-left: 160px; }
+  padding-right: 30px; @media (min-width: 768px) { padding-right: 160px; }
+}
+
+.prod-btn{
+  background-color: #C08261;
+  color: white;
+  font-size: 0.9em;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 .gallery-container {
     text-align: center;
     padding: 20px;
@@ -16,7 +45,7 @@
   
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     padding: 10px;
   }
