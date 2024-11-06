@@ -1,11 +1,10 @@
 .hero-container {
   position: relative;
-  background-image: url('../../../public/Images/HeroHeaderSmall.png'); @media (min-width: 768px) { background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png'); }
+  background-image: url('https://i.ibb.co/zGzN6yM/Hero-Header-Small.png'); @media (min-width: 768px) { background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png'); }
   background-size: cover;
   background-position: center;
-  height: 60vh; @media (min-width: 768px) { height: 80vh;}
+  height: 80vh;
 }
-
 
 .hero-text {
   position: absolute;
@@ -22,4 +21,8 @@
   background-color: #C08261;
   color: white;
   font-size: 0.9em;
+}
+
+h1 {
+  font-weight: bold;
 }
