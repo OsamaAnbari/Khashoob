@@ -1,23 +1,25 @@
 .hero-container {
   position: relative;
-  height: 80vh;
-  background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png');
+  background-image: url('../../../public/Images/HeroHeaderSmall.png'); @media (min-width: 768px) { background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png'); }
   background-size: cover;
   background-position: center;
+  height: 60vh; @media (min-width: 768px) { height: 80vh;}
 }
+
 
 .hero-text {
   position: absolute;
-  right: 10%;
   top: 50%;
   transform: translateY(-50%);
-  color: #493628;
+  color: #822E2E;
   text-align: right;
   font-size: 1.5em;
+  padding-left: 30px; @media (min-width: 768px) { padding-left: 160px; }
+  padding-right: 30px; @media (min-width: 768px) { padding-right: 160px; }
 }
 
 .prod-btn{
-  background-color: #493628;
+  background-color: #C08261;
   color: white;
   font-size: 0.9em;
 }
