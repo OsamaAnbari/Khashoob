@@ -4,11 +4,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #822E2E;
+    background-color: #1e2122;
     color: white;
 
     padding-left: 10px; @media (min-width: 768px) { padding-left: 160px; }
     padding-right: 10px; @media (min-width: 768px) { padding-right: 160px; }
+  }
+
+  .dropdown-menu{
+    background-color: #1e2122;
+  }
+
+  .dropdown-menu a{
+    color: white;
   }
 
   .nav-link{

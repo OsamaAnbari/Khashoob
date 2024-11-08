@@ -4,9 +4,9 @@ import { HomeComponent } from './Pages/home/home.component';
 import { LightingComponent } from './Pages/lighting/lighting.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, 
-  { path: 'home', component: HomeComponent },
-  { path: 'lighting', component: LightingComponent },
+  { path: '', redirectTo: 'ar/home', pathMatch: 'full' }, 
+  { path: ':lang/home', component: HomeComponent },
+  { path: ':lang/lighting', component: LightingComponent },
 ];
 
 @NgModule({

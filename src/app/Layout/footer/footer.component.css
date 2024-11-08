@@ -2,11 +2,6 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  text-align: right; /* Ensure text alignment is right for RTL */
-}
-
-.container {
-  direction: rtl; /* Set the container direction to RTL */
 }
 
 h1 {
@@ -16,10 +11,10 @@ h1 {
 }
 
 h5 {
-  color: #555;
+  color: #e3e3e3;
   font-size: 0.9em;;
 }
 
 p {
-  color: #777;
+  color: #979797;
 }

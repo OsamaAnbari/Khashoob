@@ -7,6 +7,14 @@ import { HomeComponent } from './Pages/home/home.component';
 import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { FooterComponent } from './Layout/footer/footer.component';
 import { LightingComponent } from './Pages/lighting/lighting.component';
+import { FramesComponent } from './Pages/frames/frames.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, 'localization/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -15,10 +23,19 @@ import { LightingComponent } from './Pages/lighting/lighting.component';
     NavbarComponent,
     FooterComponent,
     LightingComponent,
+    FramesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

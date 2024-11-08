@@ -13,5 +13,19 @@
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
+
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
   }
   
+  .main-images img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  hr.custom-divider { border: 1px solid #555; margin: 20px 0;}
