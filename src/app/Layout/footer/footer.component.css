@@ -8,3 +8,18 @@ footer {
 .container {
   direction: rtl; /* Set the container direction to RTL */
 }
+
+h1 {
+  color: #333;
+  font-weight: bold;
+  color: #822E2E;
+}
+
+h5 {
+  color: #555;
+  font-size: 0.9em;;
+}
+
+p {
+  color: #777;
+}

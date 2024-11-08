@@ -1,0 +1,17 @@
+.product-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .product-description {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .sub-images img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  

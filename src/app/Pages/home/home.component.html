@@ -9,7 +9,7 @@
 <div id="products" class="gallery-container">
   <h1 style="color: #822E2E">منتجاتنا</h1>
   <div class="product-grid">
-    <div *ngFor="let product of products" class="product-card">
+    <div *ngFor="let product of products" class="product-card" (click)="navigateTo(product.url)">
       <img [src]="product.image" [alt]="product.name">
       <h2>{{ product.name }}</h2>
     </div>

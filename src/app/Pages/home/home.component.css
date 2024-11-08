@@ -1,6 +1,6 @@
 .hero-container {
   position: relative;
-  background-image: url('https://i.ibb.co/zGzN6yM/Hero-Header-Small.png'); @media (min-width: 768px) { background-image: url('https://i.ibb.co/gPFTTBM/Hero-Header.png'); }
+  background-image: url('https://www.dropbox.com/scl/fi/yfq1rvda00jwfvzwmznvm/Hero-Header-Small.png?rlkey=f4haexx5z8ukgrud6u111rsoz&st=kevt344u&raw=1'); @media (min-width: 768px) { background-image: url('https://www.dropbox.com/scl/fi/etpr7brqkaji1zfg6itrs/Hero-Header.png?rlkey=59e9k6gtefrsfd7tuuowmmra6&st=sqaw2hk4&raw=1'); }
   background-size: cover;
   background-position: center;
   height: 80vh;
