@@ -21,6 +21,7 @@ export class NavbarComponent {
     url = url.replace('/en', lang); // Change 'en' to 'ar' 
     url = url.replace('/ar', lang); // Change 'en' to 'ar' 
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+    document.title = lang === 'ar' ? 'خشوب' : 'Khashoob';
     this.router.navigateByUrl(url);
   }
 }

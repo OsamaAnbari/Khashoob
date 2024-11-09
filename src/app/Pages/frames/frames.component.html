@@ -1,1 +1,68 @@
-<p>frames works!</p>
+<app-image-modal #imageModal></app-image-modal>
+
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <h1 class="page-title">{{ 'frames' | translate }}</h1>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-4 main-images">
+            <h1  class="product-title" *ngIf="!isLargeScreen">{{ 'arabicFrames' | translate }}</h1>
+            <img src="https://www.dropbox.com/scl/fi/8938bn1gltttiap4byw0a/frame2.png?rlkey=t0065xcqqka05ex1jy6m1l8dn&st=ce9g9sox&raw=1"
+                class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-8">
+            <h1  class="product-title" *ngIf="isLargeScreen">{{ 'arabicFrames' | translate }}</h1>
+            <p class="product-description">{{ 'arabicFramesDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <div class="row">
+                    <h4 class="mt-2">{{ 'images' | translate }}</h4>
+                    <div class="col-6">
+                        <img src="https://www.dropbox.com/scl/fi/u609nvgflr5vxgecwlhpr/frame3.png?rlkey=k7c36x91m416cl84a06ntc79q&st=ghmf89zy&raw=1"
+                        (click)="openModal('https://www.dropbox.com/scl/fi/u609nvgflr5vxgecwlhpr/frame3.png?rlkey=k7c36x91m416cl84a06ntc79q&st=ghmf89zy&raw=1')"
+                            class="img-fluid" alt="Sub Image 3">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://www.dropbox.com/scl/fi/c2hksdbvl2g7n8ovxy1ih/frame4.png?rlkey=m1xlhnll4t2w4zfbvvr7oxvdb&st=ut996okl&raw=1"
+                          (click)="openModal('https://www.dropbox.com/scl/fi/c2hksdbvl2g7n8ovxy1ih/frame4.png?rlkey=m1xlhnll4t2w4zfbvvr7oxvdb&st=ut996okl&raw=1')"
+                            class="img-fluid" alt="Sub Image 2">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://www.dropbox.com/scl/fi/jwy6l7ecq6hua1jchfjtk/frame11.png?rlkey=tcms9kl4oqgw5df4it8az0zht&st=m32lamkm&raw=1"
+                        (click)="openModal('https://www.dropbox.com/scl/fi/jwy6l7ecq6hua1jchfjtk/frame11.png?rlkey=tcms9kl4oqgw5df4it8az0zht&st=m32lamkm&raw=1')"
+                        class="img-fluid" alt="Sub Image 3">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                <div>● {{ 'verticalFrame' | translate }}<b> : 32 * 32 * 40 {{ 'cm' | translate }}</b></div>
+                <div>● {{ 'horizontalFrame' | translate }}<b> : 32 * 32 * 40 {{ 'cm' | translate }}</b></div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="custom-divider">
+    
+    <div class="row mt-3">
+        <div class="col-md-4 main-images">
+            <h1  class="product-title" *ngIf="!isLargeScreen">{{ 'artFrames' | translate }}</h1>
+            <img src="https://www.dropbox.com/scl/fi/lfocvhjkt7bd39k0mhkyl/frame5.jpg?rlkey=1np48jk38yahwqy87v96l16n1&st=fiokt9fu&raw=1"
+                class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-8">
+            <h1  class="product-title" *ngIf="isLargeScreen">{{ 'artFrames' | translate }}</h1>
+            <p class="product-description">{{ 'artFramesDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <div class="row">
+                </div>
+            </div>
+            <div>
+                <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                <div>● {{ 'verticalFrame' | translate }}<b> : 32 * 32 * 40 {{ 'cm' | translate }}</b></div>
+                <div>● {{ 'horizontalFrame' | translate }}<b> : 32 * 32 * 40 {{ 'cm' | translate }}</b></div>
+            </div>
+        </div>
+    </div>
+
+</div>

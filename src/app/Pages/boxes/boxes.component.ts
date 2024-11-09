@@ -4,12 +4,11 @@ import { TranslateService } from '@ngx-translate/core';
 import { ImageModalComponent } from '../../Layout/image-modal/image-modal.component';
 
 @Component({
-  selector: 'app-lighting',
-  templateUrl: './lighting.component.html',
-  styleUrl: './lighting.component.css'
+  selector: 'app-boxes',
+  templateUrl: './boxes.component.html',
+  styleUrl: './boxes.component.css'
 })
-export class LightingComponent {
-  
+export class BoxesComponent {
   constructor(private router: Router, private route: ActivatedRoute, private translate: TranslateService) {}
   
   ngOnInit(): void { 

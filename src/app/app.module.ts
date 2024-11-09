@@ -11,6 +11,9 @@ import { FramesComponent } from './Pages/frames/frames.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ImageModalComponent } from './Layout/image-modal/image-modal.component';
+import { BoxesComponent } from './Pages/boxes/boxes.component';
+import { AccessoriesComponent } from './Pages/accessories/accessories.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'localization/', '.json');
@@ -24,6 +27,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     LightingComponent,
     FramesComponent,
+    ImageModalComponent,
+    BoxesComponent,
+    AccessoriesComponent,
   ],
   imports: [
     BrowserModule,

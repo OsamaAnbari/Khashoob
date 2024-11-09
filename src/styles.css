@@ -11,3 +11,51 @@
   direction: rtl; 
   text-align: right;
 }
+
+.product-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 1.2em;
+  color: #555;
+  width: 100%;
+}
+
+.sub-images img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.main-images img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+hr.custom-divider { border: 1px solid #555; margin: 20px 0;}
+
+.page-title{
+  color: #822E2E;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container{
+  @media (max-width: 768px) { 
+    padding-left: 20px; 
+    padding-right: 20px; 
+  }
+}

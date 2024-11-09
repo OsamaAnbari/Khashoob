@@ -63,7 +63,7 @@ h1 {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 16px;
+    padding: 3%;
     transition: transform 0.2s ease-in-out;
   
     &:hover {

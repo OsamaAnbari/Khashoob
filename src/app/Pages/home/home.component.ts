@@ -22,6 +22,7 @@ export class HomeComponent {
       }
       document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
       this.backgroundClass = lang === 'ar' ? 'rtl-background' : 'ltr-background';
+      document.title = lang === 'ar' ? 'خشوب' : 'Khashoob';
     });
   }
 
