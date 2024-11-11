@@ -7,12 +7,12 @@
 
 /* styles.css or any global stylesheet */
 .ltr-background {
-  background-image: url('https://www.dropbox.com/scl/fi/gn7k3nkcbucxw8vilzlsh/Hero-Header-Small-EN.png?rlkey=g6ismvt7geduxdz7m98tvisnh&st=g8rfz5dv&raw=1'); @media (min-width: 768px) { background-image: url('https://www.dropbox.com/scl/fi/viw6m5ltxaryuojbmrelf/Hero-Header-EN.png?rlkey=sfonns5v1jfommwdso09rw4wu&st=k5ptz1k0&raw=1'); }
+  background-image: url('../../../../public/Images/Hero-Header-Small-EN.webp'); @media (min-width: 768px) { background-image: url('../../../../public/Images/Hero-Header-EN.webp'); }
 
 }
 
 .rtl-background {
-  background-image: url('https://www.dropbox.com/scl/fi/yfq1rvda00jwfvzwmznvm/Hero-Header-Small.png?rlkey=f4haexx5z8ukgrud6u111rsoz&st=kevt344u&raw=1'); @media (min-width: 768px) { background-image: url('https://www.dropbox.com/scl/fi/etpr7brqkaji1zfg6itrs/Hero-Header.png?rlkey=59e9k6gtefrsfd7tuuowmmra6&st=sqaw2hk4&raw=1'); }
+  background-image: url('../../../../public/Images/Hero-Header-Small.webp'); @media (min-width: 768px) { background-image: url('../../../../public/Images/Hero-Header.webp'); }
 
 }
 
