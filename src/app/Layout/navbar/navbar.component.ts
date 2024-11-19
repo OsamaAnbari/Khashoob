@@ -27,8 +27,8 @@ export class NavbarComponent implements OnInit {
 
   changeLanguage(lang: string) { 
     let url = this.location.path(); 
-    url = url.replace('/en', lang); // Change 'en' to 'ar' 
-    url = url.replace('/ar', lang); // Change 'en' to 'ar' 
+    url = url.replace('/en', lang);
+    url = url.replace('/ar', lang);
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
     document.title = lang === 'ar' ? 'خشوب' : 'Khashoob';
     this.logo = lang === 'ar' ? 'Images/logo.png' : 'Images/logo-EN.png';

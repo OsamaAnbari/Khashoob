@@ -1,0 +1,112 @@
+<app-image-modal #imageModal></app-image-modal>
+
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <h1 class="page-title">{{ 'keyChains' | translate }}</h1>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-6 main-images">
+            <h1 class="product-title" *ngIf="!isLargeScreen">{{ 'artKeyChain' | translate }}</h1>
+            <img src="Images/keyChain1.webp" class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-6">
+            <h1 class="product-title" *ngIf="isLargeScreen">{{ 'artKeyChain' | translate }}</h1>
+            <p class="product-description">{{ 'keyChainDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <h4 class="mt-2">{{ 'images' | translate }}</h4>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Images/keyChain1.webp" (click)="openModal('Images/keyChain1.webp')" class="img-fluid"
+                            alt="Sub Image 1">
+                    </div>
+                </div>
+                <div class="sub-images mt-4">
+                    <h4 class="mt-2">{{ 'arts' | translate }}</h4>
+                    <div class="row">
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-01.webp"
+                                (click)="openModal('Images/keyChainPattern-01.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-02.webp"
+                                (click)="openModal('Images/keyChainPattern-02.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-03.webp"
+                                (click)="openModal('Images/keyChainPattern-03.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-04.webp"
+                                (click)="openModal('Images/keyChainPattern-04.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-05.webp"
+                                (click)="openModal('Images/keyChainPattern-05.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <img src="Images/keyChainPattern-06.webp"
+                                (click)="openModal('Images/keyChainPattern-06.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                    <div>● {{ 'standard' | translate }}<b> : 4 * 6 {{ 'cm' | translate }}</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="custom-divider">
+
+    <div class="row mt-3">
+        <div class="col-md-6 main-images">
+            <h1 class="product-title" *ngIf="!isLargeScreen">{{ 'arabicKeyChain' | translate }}</h1>
+            <img src="Images/keyCahinArabic.webp" class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-6">
+            <h1 class="product-title" *ngIf="isLargeScreen">{{ 'arabicKeyChain' | translate }}</h1>
+            <p class="product-description">{{ 'arabicKeyChainDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <h4 class="mt-2">{{ 'images' | translate }}</h4>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Images/keyCahinArabic.webp" (click)="openModal('Images/keyCahinArabic.webp')" class="img-fluid"
+                            alt="Sub Image 1">
+                    </div>
+                </div>
+                <div class="sub-images mt-4">
+                    <h4 class="mt-2">{{ 'arts' | translate }}</h4>
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <img src="Images/keyChainArabic1.webp"
+                                (click)="openModal('Images/keyChainArabic1.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <img src="Images/keyChainArabic2.webp"
+                                (click)="openModal('Images/keyChainArabic2.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <img src="Images/keyChainArabic3.webp"
+                                (click)="openModal('Images/keyChainArabic3.webp')" class="img-fluid"
+                                alt="Sub Image 1">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                    <div>● {{ 'standard' | translate }}<b> : 4,5 * 5 {{ 'cm' | translate }}</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

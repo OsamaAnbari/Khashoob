@@ -14,6 +14,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ImageModalComponent } from './Layout/image-modal/image-modal.component';
 import { BoxesComponent } from './Pages/boxes/boxes.component';
 import { AccessoriesComponent } from './Pages/accessories/accessories.component';
+import { OfficeComponent } from './Pages/office/office.component';
+import { KeychainComponent } from './Pages/keychain/keychain.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'localization/', '.json');
@@ -30,6 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ImageModalComponent,
     BoxesComponent,
     AccessoriesComponent,
+    OfficeComponent,
+    KeychainComponent,
   ],
   imports: [
     BrowserModule,

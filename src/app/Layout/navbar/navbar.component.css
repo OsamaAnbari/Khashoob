@@ -7,8 +7,8 @@
     background-color: #1e2122;
     color: white;
 
-    padding-left: 10px; @media (min-width: 768px) { padding-left: 160px; }
-    padding-right: 10px; @media (min-width: 768px) { padding-right: 160px; }
+    padding-left: 15px; @media (min-width: 768px) { padding-left: 160px; }
+    padding-right: 15px; @media (min-width: 768px) { padding-right: 160px; }
   }
 
   .dropdown-menu{

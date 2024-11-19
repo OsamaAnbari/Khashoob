@@ -1,0 +1,133 @@
+<app-image-modal #imageModal></app-image-modal>
+
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <h1 class="page-title">{{ 'forOffice' | translate }}</h1>
+    </div>
+
+    <div class="row mt-3">
+        <h1 class="product-title" *ngIf="!isLargeScreen">{{ 'mobileStand' | translate }}</h1>
+        <div class="col-md-6 main-images">
+            <img src="Images/prod4.webp" class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-6">
+            <h1 class="product-title" *ngIf="isLargeScreen">{{ 'mobileStand' | translate }}</h1>
+            <p class="product-description">{{ 'mobileStandDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <div class="row">
+                    <h4 class="mt-2">{{ 'images' | translate }}</h4>
+                    <div class="col-4" (click)="openModal('Images/mobile1.webp')">
+                        <img src="Images/mobile1.webp" class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/mobile2.webp" (click)="openModal('Images/mobile2.webp')" class="img-fluid"
+                            alt="Sub Image 2">
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/mobile3.webp" (click)="openModal('Images/mobile3.webp')" class="img-fluid"
+                            alt="Sub Image 3">
+                    </div>
+                    <div class="col-4" (click)="openModal('Images/mobile4.webp')">
+                        <img src="Images/mobile4.webp" class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-4">
+                        <img src="Images/mobile5.webp" (click)="openModal('Images/mobile5.webp')" class="img-fluid"
+                            alt="Sub Image 2">
+                    </div>
+                </div>
+            </div>
+            <div class="sub-images mt-4">
+                <h4 class="mt-2">{{ 'arts' | translate }}</h4>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-01.webp" (click)="openModal('Images/mobilePattern-01.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-02.webp" (click)="openModal('Images/mobilePattern-02.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-03.webp" (click)="openModal('Images/mobilePattern-03.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-04.webp" (click)="openModal('Images/mobilePattern-04.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-05.webp" (click)="openModal('Images/mobilePattern-05.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-06.webp" (click)="openModal('Images/mobilePattern-06.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-07.webp" (click)="openModal('Images/mobilePattern-07.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-08.webp" (click)="openModal('Images/mobilePattern-08.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-09.webp" (click)="openModal('Images/mobilePattern-09.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-10.webp" (click)="openModal('Images/mobilePattern-10.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-11.webp" (click)="openModal('Images/mobilePattern-11.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-12.webp" (click)="openModal('Images/mobilePattern-12.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="Images/mobilePattern-13.webp" (click)="openModal('Images/mobilePattern-13.webp')"
+                            class="img-fluid" alt="Sub Image 1">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                <div>● {{ 'small' | translate }}<b> : 20 * 8.5 {{ 'cm' | translate }}</b></div>
+                <div>● {{ 'medium' | translate }}<b> : 16 * 7 {{ 'cm' | translate }}</b></div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="custom-divider">
+
+    <div class="row mt-3">
+        <h1 class="product-title" *ngIf="!isLargeScreen">{{ 'pensCup' | translate }}</h1>
+        <div class="col-md-6 main-images">
+            <img src="Images/pens.webp" class="img-fluid" alt="Main Product Image">
+        </div>
+        <div class="col-md-6">
+            <h1 class="product-title" *ngIf="isLargeScreen">{{ 'pensCup' | translate }}</h1>
+            <p class="product-description">{{ 'pensCupDescription' | translate }}</p>
+            <div class="sub-images mt-4">
+                <div class="row">
+                    <h4 class="mt-2">{{ 'images' | translate }}</h4>
+                    <div class="col-4" (click)="openModal('Images/mobile1.webp')">
+                        <img src="Images/pens.webp" class="img-fluid" alt="Sub Image 1">
+                    </div>
+                    <div class="col-5">
+                        <img src="Images/pans2.webp" (click)="openModal('Images/mobile2.webp')" class="img-fluid"
+                            alt="Sub Image 2">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4 class="mt-2">{{ 'dimensions' | translate }}</h4>
+                <div>● {{ 'standard' | translate }}<b> : 20 * 8.5 {{ 'cm' | translate }}</b></div>
+            </div>
+        </div>
+    </div>
+
+</div>

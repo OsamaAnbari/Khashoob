@@ -30,7 +30,7 @@
     "arabicFramesDescription": "Let your home walls tell the story of your exquisite taste with our art pieces creatively designed.",
     "verticalFrame": "Vertical Wall Arts",
     "horizontalFrame": "Horizontal FrWall Artsames",
-    "artFrames": "Art Wall Arts",
+    "artFrames": "Wall Arts",
     "artFramesDescription": "Adorn your home walls with wooden art pieces that blend natural beauty and high craftsmanship.",
     "hospitalityBoxes": "Hospitality Boxes",
     "hospitalityBoxesDescription": "Present your hospitality with traditional art meets luxury to make every occasion an extraordinary moment.",
@@ -43,6 +43,14 @@
     "keyHolderDescription": "Keep your keys organized and stylish with our wooden wall-mounted key holder.",
     "keyChain": "Key Chain",
     "keyChainDescription": "Keep your keys close and stylish with our high-quality wooden key chain, designed to express your unique taste and natural elegance.",
-    "standard": "standard"
+    "standard": "standard",
+    "keyChains": "Key Chains",
+    "artKeyChain": "Art Key Chain",
+    "arabicKeyChain": "Arabic Key Chain",
+    "forOffice": "For Office",
+    "general": "General",
+    "arabicKeyChainDescription": "Add a touch of authenticity to your keys with handcrafted wooden keychains featuring Arabic letters.",
+    "pensCup": "Pen Holder",
+    "pensCupDescription": "Organize your desk with elegance using a handcrafted wooden pen holder that combines beauty and functionality."
   }
     
